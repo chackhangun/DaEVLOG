@@ -1,3 +1,11 @@
-export function Home() {
-  return <div>뭘 해야할지 모르겠넹</div>;
+import styled from "styled-components";
+
+export default function Home() {
+  return <Wrapper></Wrapper>;
 }
+
+const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+`;
